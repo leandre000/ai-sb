@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+//instructor model
 const instructorSchema = mongoose.Schema({
     user : { type : mongoose.Schema.Types.ObjectId, ref : "User" },
     school : { type : mongoose.Schema.Types.ObjectId, ref : "School" },
