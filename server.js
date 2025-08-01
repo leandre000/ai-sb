@@ -6,7 +6,7 @@ import userRouter from "./routes/user.routes.js";
 import authRouter from "./routes/auth.routes.js";
 import schoolRouter from "./routes/school.routes.js";
 
-
+//server
 const app = express();
 
 const PORT = process.env.PORT || 5000;
