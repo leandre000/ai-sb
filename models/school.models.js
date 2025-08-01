@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//added school model
 const schoolSchema = mongoose.Schema({
     name : { type : String, required : true },
     admin : { type : mongoose.Schema.Types.ObjectId, ref : "User", required : true },
