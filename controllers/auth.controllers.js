@@ -1,7 +1,7 @@
 import User from "../models/user.models.js";
 import bcrypt from "bcryptjs";
 import { generateTokenAndSetCookie } from "../utils/cookie.utils.js";
-
+//added my controllers
 export const register = async (req, res) => {
     const { fullname, username, email, password } = req.body;
     try {
