@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-//added my class model
+
 const classSchema = mongoose.Schema({
     name : { type : String, required : true },
     school : { type : mongoose.Schema.Types.ObjectId, ref : "School" },
