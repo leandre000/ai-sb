@@ -1,6 +1,6 @@
 import mongoose, { mongo } from "mongoose";
 import {configDotenv} from "dotenv";
-
+//configured db
 configDotenv();
 
 export const connectToDatabase = () => {
