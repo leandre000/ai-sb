@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import { configDotenv } from "dotenv";
 configDotenv();
-
+//added middleware
 export const authorize = (req, res, next) => {
     const { token } = req.cookies;
     try {
