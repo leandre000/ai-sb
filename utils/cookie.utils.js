@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import { configDotenv } from "dotenv";
 configDotenv();
-
+//utils
 export const generateTokenAndSetCookie = (user, res) => {
     try {
         const payload = { id: user._id, role : user.role };
